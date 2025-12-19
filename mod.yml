@@ -1,0 +1,2052 @@
+name: Peek Performance
+originalAuthor: Shananas
+game: kh2
+assets:
+#font img
+- name: remastered/msg/us/fontimage.bar/US_fontimage_bar2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/FontImage.png
+#PC
+- name: remastered/itempic/item-221.imd/-0.dds #Lamp Charm
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Lamp Charm.dds
+- name: remastered/itempic/item-222.imd/-0.dds #Ukulele Charm
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Ukulele Charm.dds
+- name: remastered/itempic/item-223.imd/-0.dds #Feather Charm
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Feather Charm.dds
+- name: remastered/itempic/item-224.imd/-0.dds #Baseball Charm
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Baseball Charm.dds
+- name: remastered/itempic/item-266.imd/-0.dds #Valor Form
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Valor Form.dds
+- name: remastered/itempic/item-267.imd/-0.dds #Wisdom Form
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Wisdom Form.dds
+- name: remastered/itempic/item-268.imd/-0.dds #Master Form
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Master Form.dds
+- name: remastered/itempic/item-269.imd/-0.dds #Final Form
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Final Form.dds
+- name: remastered/itempic/item-320.imd/-0.dds #Limit Form
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Limit Form.dds
+- name: remastered/itempic/item-242.imd/-0.dds #Promise Charm
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Promise Charm.dds
+- name: remastered/itempic/item-321.imd/-0.dds #Proof of Connection
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Proof of Connection.dds
+- name: remastered/itempic/item-322.imd/-0.dds #Proof of Nonexistence
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Proof of Nonexistence.dds
+- name: remastered/itempic/item-323.imd/-0.dds #Proof of Peace
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Proof of Peace.dds
+- name: remastered/itempic/item-324.imd/-0.dds #Fire
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Fire.dds
+- name: remastered/itempic/item-325.imd/-0.dds #Blizzard
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Blizzard.dds
+- name: remastered/itempic/item-326.imd/-0.dds #Thunder
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Thunder.dds
+- name: remastered/itempic/item-327.imd/-0.dds #Cure
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Cure.dds
+- name: remastered/itempic/item-328.imd/-0.dds #Magnet
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Magnet.dds
+- name: remastered/itempic/item-329.imd/-0.dds #Reflect
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Reflect.dds
+- name: remastered/itempic/item-231.imd/-0.dds #Namine
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/FeetPics.dds
+- name: remastered/itempic/item-244.imd/-0.dds #Bingus(Hades Cup)
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/BingusCup.dds
+#Gibson
+- name: remastered/msn/us/BB12_GIMMICK.bar/US_BB12_GIMMICK_bar0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Gibson/US_BB12_GIMMICK_bar0.png
+- name: remastered/msn/us/DC00_MS101.bar/US_DC00_MS101_bar0.png
+  multi:
+    - name: remastered/msn/us/DC02_MS100.bar/US_DC02_MS100_bar0.png
+    - name: remastered/msn/us/DC02_MS101.bar/US_DC02_MS101_bar0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Gibson/US_DC00_MS101_bar0.png
+- name: remastered/msn/us/EH15_MS104.bar/US_EH15_MS104_bar0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Gibson/US_EH15_MS104_bar0.png
+- name: remastered/msn/us/EH22_MS111.bar/US_EH22_MS111_bar0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Gibson/US_EH22_MS111_bar0.png
+- name: remastered/msn/us/EH26_MS108.bar/US_EH26_MS108_bar0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Gibson/US_EH26_MS108_bar0.png
+- name: remastered/msn/us/EH26_MS108.bar/US_EH26_MS108_bar1.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Gibson/US_EH26_MS108_bar1.png
+- name: remastered/msn/us/EH26_MS108.bar/US_EH26_MS108_bar2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Gibson/US_EH26_MS108_bar2.png
+- name: remastered/msn/us/HB08_MS102.bar/US_HB08_MS102_bar0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Gibson/US_HB08_MS102_bar0.png
+- name: remastered/msn/us/HB32_FM_VEX.bar/US_HB32_FM_VEX_bar0.png
+  multi:
+  - name: remastered/msn/us/HB33_FM_VEX.bar/US_HB33_FM_VEX_bar0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Gibson/US_HB32_FM_VEX_bar0.png
+- name: remastered/msn/us/HE08_MS106.bar/US_HE08_MS106_bar0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Gibson/US_HE08_MS106_bar0.png
+- name: remastered/msn/us/LK02_MS102.bar/US_LK02_MS102_bar0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Gibson/US_LK02_MS102_bar0.png
+- name: remastered/msn/us/MU01_MS102.bar/US_MU01_MS102_bar0.png
+  multi:
+    - name: remastered/msn/us/MU01_MS103C.bar/US_MU01_MS103C_bar1.png
+    - name: remastered/msn/us/MU02_MS103A.bar/US_MU02_MS103A_bar1.png
+    - name: remastered/msn/us/MU02_MS103B.bar/US_MU02_MS103B_bar0.png
+    - name: remastered/msn/us/MU03_MS104.bar/US_MU03_MS104_bar0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Gibson/US_MU01_MS102_bar0.png
+- name: remastered/msn/us/MU09_MS108.bar/US_MU09_MS108_bar0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Gibson/US_MU09_MS108_bar0.png
+- name: remastered/msn/us/PO01_MS501.bar/US_PO01_MS501_bar4.png
+  multi:
+    - name: remastered/msn/us/PO01_MS501_FREE.bar/US_PO01_MS501_FREE_bar4.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Gibson/US_PO01_MS501_bar4.png
+- name: remastered/msn/us/PO09_MS401.bar/US_PO09_MS401_bar4.png
+  multi:
+    - name: remastered/msn/us/PO09_MS401_FREE.bar/US_PO09_MS401_FREE_bar3.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Gibson/US_PO09_MS401_bar4.png
+- name: remastered/msn/us/TR01_MS101.bar/US_TR01_MS101_bar2.png
+  multi:
+    - name: remastered/msn/us/TR03_MS103.bar/US_TR03_MS103_bar0.png
+    - name: remastered/msn/us/TR04_MS104.bar/US_TR04_MS104_bar0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Gibson/US_TR01_MS101_bar2.png
+- name: remastered/msn/us/TR07_MS203.bar/US_TR07_MS203_bar0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Gibson/US_TR07_MS203_bar0.png
+- name: remastered/msn/us/WI04_MS102C.bar/US_WI04_MS102C_bar0.png
+  multi:
+    - name: remastered/msn/us/WI05_MS102D.bar/US_WI05_MS102D_bar0.png
+    - name: remastered/msn/us/WI06_MS102B.bar/US_WI06_MS102B_bar0.png
+    - name: remastered/msn/us/WI07_MS102A.bar/US_WI07_MS102A_bar0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/Gibson/US_WI04_MS102C_bar0.png
+#Hud Stuff
+- name: remastered/obj/P_EX330.a.us/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/-10.dds #Pan
+- name: remastered/obj/P_EX350.a.us/-15.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/-15.png #Chicken
+- name: remastered/obj/N_HB040_BTL.a.us/-18.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/-18.png #Dog
+- name: remastered/obj/P_NM000.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/normal jack.dds #Jack
+- name: remastered/obj/P_NM000_SANTA.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/christmas jack.dds #Jack chirstmas
+- name: remastered/obj/P_NM000_SANTA.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/christmas jack.dds #Jack chirstmas
+- name: remastered/obj/P_CA000.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/jack.dds #other jacks
+- name: remastered/obj/P_CA000_HUMAN.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/jack.dds #other jacks
+- name: remastered/obj/P_CA000_HUMAN_LOW.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/jack.dds #other jacks
+- name: remastered/obj/P_CA000_LOW.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/jack.dds #other jacks
+- name: remastered/obj/P_AL000.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/rat.dds #street rat
+- name: remastered/obj/P_MU010.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/family.dds #FA
+- name: remastered/obj/P_LM100.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/fish.dds #fish
+- name: remastered/obj/P_LK020.a.us/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/duck.dds #duck
+- name: remastered/obj/P_LK030.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/goof.dds #doge
+- name: remastered/obj/P_EX100.a.us/-8.dds
+  multi:
+    - name: remastered/obj/P_EX100_NM.a.us/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/sora.dds #sora
+- name: remastered/obj/P_EX100_TR.a.us/-8.dds
+  multi:
+    - name: remastered/obj/P_EX100_WI.a.us/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/trsora.dds #sora
+- name: remastered/obj/P_EX100_BTLF.a.us/-4.dds
+  multi:
+    - name: remastered/obj/P_EX100_NM_BTLF.a.us/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/valor.dds #Valor sora
+- name: remastered/obj/P_EX100_TR_BTLF.a.us/-4.dds
+  multi:
+    - name: remastered/obj/P_EX100_WI_BTLF.a.us/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/trvalor.dds #Valor sora
+- name: remastered/obj/P_EX100_MAGF.a.us/-2.dds
+  multi:
+    - name: remastered/obj/P_EX100_NM_MAGF.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/wisdom.dds #Wisdom sora
+- name: remastered/obj/P_EX100_TR_MAGF.a.us/-2.dds
+  multi:
+    - name: remastered/obj/P_EX100_WI_MAGF.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/trwisdom.dds #Wisdom sora
+- name: remastered/obj/P_EX100_KH1F.a.us/-9.dds
+  multi:
+    - name: remastered/obj/P_EX100_NM_KH1F.a.us/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/limit.dds #Limit sora
+- name: remastered/obj/P_EX100_TR_KH1F.a.us/-9.dds
+  multi:
+    - name: remastered/obj/P_EX100_WI_KH1F.a.us/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/trlimit.dds #Limit sora
+- name: remastered/obj/P_EX100_TRIF.a.us/-5.dds
+  multi:
+    - name: remastered/obj/P_EX100_NM_TRIF.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/master.dds #Master sora
+- name: remastered/obj/P_EX100_TR_TRIF.a.us/-5.dds
+  mtuli:
+    - name: remastered/obj/P_EX100_WI_TRIF.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/trmaster.dds #Master sora
+- name: remastered/obj/P_EX100_ULTF.a.us/-10.dds
+  multi:
+    - name: remastered/obj/P_EX100_NM_ULTF.a.us/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/final.dds #Final sora
+- name: remastered/obj/P_EX100_TR_ULTF.a.us/-10.dds
+  multi:
+    - name: remastered/obj/P_EX100_WI_ULTF.a.us/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/trfinal.dds #Final sora
+#PC
+- name: field2d/us/al0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/bb0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/ca0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/dc0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/di0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/eh0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/es0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/hb0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/he0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/lk0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/lm0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/mu0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/nm0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/po0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/tr0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/tt0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/wi0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/wm0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/zz0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+#PC Screens
+- name: menu/us/ending.2ld
+  platform: pc
+  method: copy
+  source:
+  - name: menu/ending.2ld
+- name: menu/us/pause.2ld
+  platform: pc
+  method: copy
+  source:
+  - name: menu/pause.2ld
+- name: menu/us/save.2ld
+  platform: pc
+  method: copy
+  source:
+  - name: menu/save.2ld
+- name: remastered/menu/us/save.2ld/US_save_2ld0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/US_save_2ld0.png #save
+- name: remastered/menu/us/pause.2ld/US_pause_2ld0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/US_pause_2ld0.dds #pause
+#Puzzles
+- name: menu/fm/jm_puzzle/puzzle010.bin
+  multi:
+    - name: menu/jm_puzzle/puzzle010.bin
+  method: copy
+  source:
+  - name: menu/puzzle010.bin
+- name: menu/fm/jm_puzzle/puzzle020.bin
+  multi:
+    - name: menu/jm_puzzle/puzzle020.bin
+  method: copy
+  source:
+  - name: menu/puzzle020.bin
+- name: menu/fm/jm_puzzle/puzzle030.bin
+  multi:
+    - name: menu/jm_puzzle/puzzle030.bin
+  method: copy
+  source:
+  - name: menu/puzzle030.bin
+- name: menu/fm/jm_puzzle/puzzle050.bin
+  multi:
+    - name: menu/jm_puzzle/puzzle050.bin
+  method: copy
+  source:
+  - name: menu/puzzle050.bin
+#PC Room Text
+- name: remastered/map/us/al00.bar/US_al00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al01.bar/US_al01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al02.bar/US_al02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al03.bar/US_al03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al04.bar/US_al04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al05.bar/US_al05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al06.bar/US_al06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al07.bar/US_al07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al09.bar/US_al09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al10.bar/US_al10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al11.bar/US_al11_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al12.bar/US_al12_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al13.bar/US_al13_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al14.bar/US_al14_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al15.bar/US_al15_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb00.bar/US_bb00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb01.bar/US_bb01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb02.bar/US_bb02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb03.bar/US_bb03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb04.bar/US_bb04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb05.bar/US_bb05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb06.bar/US_bb06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb07.bar/US_bb07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb08.bar/US_bb08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb09.bar/US_bb09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb10.bar/US_bb10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb11.bar/US_bb11_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb12.bar/US_bb12_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb13.bar/US_bb13_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb14.bar/US_bb14_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca00.bar/US_ca00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca01.bar/US_ca01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca02.bar/US_ca02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca03.bar/US_ca03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca04.bar/US_ca04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca05.bar/US_ca05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca06.bar/US_ca06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca07.bar/US_ca07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca08.bar/US_ca08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca09.bar/US_ca09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca10.bar/US_ca10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca11.bar/US_ca11_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca12.bar/US_ca12_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca13.bar/US_ca13_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca14.bar/US_ca14_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca15.bar/US_ca15_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca16.bar/US_ca16_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/dc00.bar/US_dc00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/dc01.bar/US_dc01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/dc02.bar/US_dc02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/dc03.bar/US_dc03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/dc04.bar/US_dc04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/dc05.bar/US_dc05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/dc06.bar/US_dc06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/dc07.bar/US_dc07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh00.bar/US_eh00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh01.bar/US_eh01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh02.bar/US_eh02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh03.bar/US_eh03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh04.bar/US_eh04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh05.bar/US_eh05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh06.bar/US_eh06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh07.bar/US_eh07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh08.bar/US_eh08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh09.bar/US_eh09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh10.bar/US_eh10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh11.bar/US_eh11_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh12.bar/US_eh12_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh13.bar/US_eh13_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh14.bar/US_eh14_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh15.bar/US_eh15_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh16.bar/US_eh16_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh17.bar/US_eh17_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh18.bar/US_eh18_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh19.bar/US_eh19_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh20.bar/US_eh20_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh21.bar/US_eh21_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh22.bar/US_eh22_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb00.bar/US_hb00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb01.bar/US_hb01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb02.bar/US_hb02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb03.bar/US_hb03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb04.bar/US_hb04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb05.bar/US_hb05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb06.bar/US_hb06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb07.bar/US_hb07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb08.bar/US_hb08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb09.bar/US_hb09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb10.bar/US_hb10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb11.bar/US_hb11_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb12.bar/US_hb12_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb13.bar/US_hb13_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb14.bar/US_hb14_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb15.bar/US_hb15_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb16.bar/US_hb16_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb17.bar/US_hb17_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb18.bar/US_hb18_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb19.bar/US_hb19_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb20.bar/US_hb20_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb21.bar/US_hb21_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb22.bar/US_hb22_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb23.bar/US_hb23_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb24.bar/US_hb24_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb25.bar/US_hb25_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb26.bar/US_hb26_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb33.bar/US_hb33_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/hb38.bar/US_hb38_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/HBBingus.dds
+- name: remastered/map/us/he00.bar/US_he00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he01.bar/US_he01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he02.bar/US_he02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he03.bar/US_he03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he04.bar/US_he04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he05.bar/US_he05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he06.bar/US_he06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he07.bar/US_he07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he08.bar/US_he08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he09.bar/US_he09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he10.bar/US_he10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he11.bar/US_he11_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he12.bar/US_he12_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he13.bar/US_he13_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he14.bar/US_he14_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he15.bar/US_he15_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he16.bar/US_he16_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he17.bar/US_he17_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk00.bar/US_lk00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk01.bar/US_lk01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk02.bar/US_lk02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk03.bar/US_lk03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk04.bar/US_lk04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk05.bar/US_lk05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk06.bar/US_lk06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk07.bar/US_lk07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk08.bar/US_lk08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk09.bar/US_lk09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk10.bar/US_lk10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk11.bar/US_lk11_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk12.bar/US_lk12_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk13.bar/US_lk13_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk14.bar/US_lk14_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lm00.bar/US_lm00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lm01.bar/US_lm01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lm02.bar/US_lm02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lm03.bar/US_lm03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lm04.bar/US_lm04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lm05.bar/US_lm05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lm06.bar/US_lm06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lm07.bar/US_lm07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lm08.bar/US_lm08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lm09.bar/US_lm09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lm10.bar/US_lm10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu00.bar/US_mu00_bar0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.png
+- name: remastered/map/us/mu01.bar/US_mu01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu02.bar/US_mu02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu03.bar/US_mu03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu04.bar/US_mu04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu05.bar/US_mu05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu06.bar/US_mu06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu07.bar/US_mu07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu08.bar/US_mu08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu09.bar/US_mu09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu10.bar/US_mu10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu11.bar/US_mu11_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu12.bar/US_mu12_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/nm00.bar/US_nm00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/nm01.bar/US_nm01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/nm02.bar/US_nm02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/nm03.bar/US_nm03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/nm04.bar/US_nm04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/nm05.bar/US_nm05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/nm06.bar/US_nm06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/nm07.bar/US_nm07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/nm08.bar/US_nm08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/nm09.bar/US_nm09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/nm10.bar/US_nm10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/po00.bar/US_po00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/po01.bar/US_po01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/po02.bar/US_po02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/po03.bar/US_po03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/po04.bar/US_po04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/po05.bar/US_po05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/po06.bar/US_po06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/po07.bar/US_po07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/po08.bar/US_po08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/po09.bar/US_po09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr00.bar/US_tr00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr01.bar/US_tr01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr02.bar/US_tr02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr03.bar/US_tr03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr04.bar/US_tr04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr05.bar/US_tr05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr06.bar/US_tr06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr07.bar/US_tr07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr08.bar/US_tr08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr09.bar/US_tr09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr10.bar/US_tr10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr11.bar/US_tr11_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt00.bar/US_tt00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt01.bar/US_tt01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt02.bar/US_tt02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt03.bar/US_tt03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt04.bar/US_tt04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt05.bar/US_tt05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt06.bar/US_tt06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt07.bar/US_tt07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt08.bar/US_tt08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt09.bar/US_tt09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt10.bar/US_tt10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt11.bar/US_tt11_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt12.bar/US_tt12_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt13.bar/US_tt13_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Boi.dds
+- name: remastered/map/us/tt14.bar/US_tt14_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt15.bar/US_tt15_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt16.bar/US_tt16_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt17.bar/US_tt17_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt18.bar/US_tt18_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt19.bar/US_tt19_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt20.bar/US_tt20_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt21.bar/US_tt21_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt22.bar/US_tt22_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt23.bar/US_tt23_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt24.bar/US_tt24_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt25.bar/US_tt25_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt26.bar/US_tt26_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt27.bar/US_tt27_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt28.bar/US_tt28_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt29.bar/US_tt29_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt30.bar/US_tt30_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt31.bar/US_tt31_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt32.bar/US_tt32_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt33.bar/US_tt33_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt34.bar/US_tt34_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt35.bar/US_tt35_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt36.bar/US_tt36_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt37.bar/US_tt37_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt38.bar/US_tt38_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt39.bar/US_tt39_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt40.bar/US_tt40_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/wi00.bar/US_wi00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/wi01.bar/US_wi01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/wi02.bar/US_wi02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/wi03.bar/US_wi03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/wi04.bar/US_wi04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/wi05.bar/US_wi05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/wi06.bar/US_wi06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/wi07.bar/US_wi07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/menu/jm_puzzle/puzzle010.bin/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/puzzles/10.dds
+- name: remastered/menu/jm_puzzle/puzzle020.bin/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/puzzles/20.dds
+- name: remastered/menu/jm_puzzle/puzzle030.bin/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/puzzles/30.dds
+- name: remastered/menu/jm_puzzle/puzzle050.bin/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/puzzles/50.dds
+- name: remastered/menu/us/ending.2ld/US_ending_2ld6.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/US_ending_2ld6.png
+
+- name: remastered/field2d/us/al0field.2dd/US_al0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/transition.png
+- name: remastered/field2d/us/bb0field.2dd/US_bb0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/transition.png
+- name: remastered/field2d/us/ca0field.2dd/US_ca0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/transition.png
+- name: remastered/field2d/us/dc0field.2dd/US_dc0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/transition.png
+- name: remastered/field2d/us/di0field.2dd/US_di0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/transition.png
+- name: remastered/field2d/us/eh0field.2dd/US_eh0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/transition.png
+- name: remastered/field2d/us/es0field.2dd/US_es0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/transition.png
+- name: remastered/field2d/us/hb0field.2dd/US_hb0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/transition.png
+- name: remastered/field2d/us/he0field.2dd/US_he0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/transition.png
+- name: remastered/field2d/us/lk0field.2dd/US_lk0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/transition.png
+- name: remastered/field2d/us/lm0field.2dd/US_lm0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/transition.png
+- name: remastered/field2d/us/mu0field.2dd/US_mu0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/transition.png
+- name: remastered/field2d/us/nm0field.2dd/US_nm0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/transition.png
+- name: remastered/field2d/us/po0field.2dd/US_po0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/transition.png
+- name: remastered/field2d/us/tr0field.2dd/US_tr0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/transition.png
+- name: remastered/field2d/us/tt0field.2dd/US_tt0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/transition.png
+- name: remastered/field2d/us/wi0field.2dd/US_wi0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/transition.png
+- name: remastered/field2d/us/wm0field.2dd/US_wm0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/transition.png
+- name: remastered/field2d/us/zz0field.2dd/US_zz0field_2dd2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/transition.png
+#Icons
+#- name: itempic/item-324.imd #Fire
+#  method: imd
+#  source:
+#  - name: itempic/fire.png
+#- name: itempic/item-325.imd #Blizzard
+#  method: imd
+#  source:
+#  - name: itempic/blizzard.png
+#- name: itempic/item-326.imd #Thunder
+#  method: imd
+#  source:
+#  - name: itempic/thunder.png
+#- name: itempic/item-327.imd #Cure
+#  method: imd
+#  source:
+#  - name: itempic/cure.png
+#- name: itempic/item-328.imd #Magnet
+#  method: imd
+#  source:
+#  - name: itempic/magnet.png
+#- name: itempic/item-329.imd #Reflect
+#  method: imd
+#  source:
+#  - name: itempic/reflect.png
+#- name: itempic/item-221.imd #Lamp Charm
+#  method: copy
+#  source:
+#  - name: itempic/Lamp Charm.imd
+#- name: itempic/item-222.imd #Ukulele Charm
+#  method: copy
+#  source:
+#  - name: itempic/Ukulele Charm.imd
+#- name: itempic/item-223.imd #Feather Charm
+#  method: copy
+#  source:
+#  - name: itempic/Feather Charm.imd
+#- name: itempic/item-224.imd #Baseball Charm
+#  method: copy
+#  source:
+#  - name: itempic/Baseball Charm.imd
+#- name: itempic/item-266.imd #Valor Form
+#  method: copy
+#  source:
+#  - name: itempic/Valor Form.imd
+#- name: itempic/item-267.imd #Wisdom Form
+#  method: copy
+#  source:
+#  - name: itempic/Wisdom Form.imd
+#- name: itempic/item-268.imd #Master Form
+#  method: copy
+#  source:
+#  - name: itempic/Master Form.imd
+#- name: itempic/item-269.imd #Final Form
+#  method: copy
+#  source:
+#  - name: itempic/Final Form.imd
+#- name: itempic/item-320.imd #Limit Form
+#  method: copy
+#  source:
+#  - name: itempic/Limit Form.imd
+#- name: itempic/item-242.imd #Promise Charm
+#  method: copy
+#  source:
+#  - name: itempic/Promise Charm.imd
+#- name: itempic/item-321.imd #Proof of Connection
+#  method: copy
+#  source:
+#  - name: itempic/Proof of Connection.imd
+#- name: itempic/item-322.imd #Proof of Nonexistence
+#  method: copy
+#  source:
+#  - name: itempic/Proof of Nonexistence.imd
+#- name: itempic/item-323.imd #Proof of Peace
+#  method: copy
+#  source:
+#  - name: itempic/Proof of Peace.imd
+#- name: itempic/item-241.imd #Report
+#  method: imd
+#  source:
+#  - name: itempic/Reports.png
+#- name: itempic/item-244.imd #Bingus
+#  method: imd
+#  source:
+#  - name: itempic/Hades Cup.png
+#- name: itempic/item-231.imd #Namine
+#  method: imd
+#  source:
+#  - name: itempic/FeetPics.png
