@@ -305,6 +305,7 @@ assets:
 - name: remastered/obj/P_EX100.a.us/-8.dds
   multi:
     - name: remastered/obj/P_EX100_NM.a.us/-8.dds
+    - name: remastered/obj/P_EX100_AL_CARPET.a.us/-8.dds
   platform: pc
   method: copy
   source:
@@ -316,6 +317,11 @@ assets:
   method: copy
   source:
   - name: remastered/trsora.dds #sora
+- name: remastered/obj/P_EX100_XM.a.us/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/xmsora.dds #sora
 - name: remastered/obj/P_EX100_BTLF.a.us/-4.dds
   multi:
     - name: remastered/obj/P_EX100_NM_BTLF.a.us/-4.dds
@@ -330,6 +336,11 @@ assets:
   method: copy
   source:
   - name: remastered/trvalor.dds #Valor sora
+- name: remastered/obj/P_EX100_XM_BTLF.a.us/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/xmvalor.dds #Valor sora
 - name: remastered/obj/P_EX100_MAGF.a.us/-2.dds
   multi:
     - name: remastered/obj/P_EX100_NM_MAGF.a.us/-2.dds
@@ -343,7 +354,12 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/trwisdom.dds #Wisdom sora
+  - name: remastered/trwisdom.dds #Wisdom sora  
+- name: remastered/obj/P_EX100_XM_MAGF.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/xmwisdom.dds #Wisdom sora
 - name: remastered/obj/P_EX100_KH1F.a.us/-9.dds
   multi:
     - name: remastered/obj/P_EX100_NM_KH1F.a.us/-9.dds
@@ -358,6 +374,11 @@ assets:
   method: copy
   source:
   - name: remastered/trlimit.dds #Limit sora
+- name: remastered/obj/P_EX100_XM_KH1F.a.us/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/xmlimit.dds #Limit sora
 - name: remastered/obj/P_EX100_TRIF.a.us/-5.dds
   multi:
     - name: remastered/obj/P_EX100_NM_TRIF.a.us/-5.dds
@@ -372,6 +393,11 @@ assets:
   method: copy
   source:
   - name: remastered/trmaster.dds #Master sora
+- name: remastered/obj/P_EX100_XM_TRIF.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/xmmaster.dds #Master sora
 - name: remastered/obj/P_EX100_ULTF.a.us/-10.dds
   multi:
     - name: remastered/obj/P_EX100_NM_ULTF.a.us/-10.dds
@@ -386,6 +412,11 @@ assets:
   method: copy
   source:
   - name: remastered/trfinal.dds #Final sora
+- name: remastered/obj/P_EX100_XM_ULTF.a.us/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/xmfinal.dds #Final sora
 #PC
 - name: field2d/us/al0field.2dd
   platform: pc
